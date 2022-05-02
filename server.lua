@@ -4,7 +4,7 @@
 -- xSKA#7104
 -- xSKA#7104
 
-RegisterCommand('starterpack', function(source, args, nazwa)
+RegisterCommand('starterpack', function(source, args)
     local xPlayer = ESX.GetPlayerFromId(source)
     if (xPlayer.group == 'best' or xPlayer.group == 'superadmin' or xPlayer.group == 'admin' or xPlayer.group == 'moderator' or xPlayer.group == 'support' or xPlayer.group == 'trialsupport') then
         if args[1] ~= nil then
